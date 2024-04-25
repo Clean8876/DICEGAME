@@ -2,6 +2,20 @@
 
 This is a simple dice game built with React.js where the user can select a box numbered from 1 to 6. If the user's selected box matches the number on the rolled dice, the user scores points equal to their selected box. If the selected box does not match the rolled dice, no points are awarded.
 
+## Usage
+
+1. Visit the live demo of the game: [ Dice Game](https://dice-mu0ywxkxi-clean8876s-projects.vercel.app/)
+
+2. Select a box numbered from 1 to 6 by clicking on it.
+
+3. Click the "Roll Dice" button to roll the dice.
+
+4. If your selected box matches the rolled dice, you will score points equal to the selected box. If not, no points will be awarded.
+
+5. Continue playing and try to achieve the highest score!
+
+...
+
 ## Features
 
 - User can select a box numbered from 1 to 6
@@ -38,7 +52,7 @@ npm install
 npm start
 ```
 
-2. Open your browser and visit `http://localhost:3000` to play the game.
+2. Open your browser and visit `http://localhost:5173/` to play the game.
 
 3. Select a box numbered from 1 to 6 by clicking on it.
 
@@ -53,9 +67,9 @@ npm start
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
+2. Create your feature branch (`git checkout -b feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
+4. Push to the branch (`git push origin feature/`)
 5. Open a pull request
 
 ## License
